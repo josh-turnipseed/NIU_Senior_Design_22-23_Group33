@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/josh/Documents/Kicad Projects/Senior Design/Midi2cv/Midi2cv.kicad_sch</source>
+    <date>Mon 27 Feb 2023 08:28:13 PM CST</date>
+    <tool>Eeschema (6.0.11)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MIDI to CV Eurorack Module</title>
+        <company>Joshua Turnipseed</company>
+        <rev>0.2</rev>
+        <date>2022-10-07</date>
+        <source>Midi2cv.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>ELEGOO_Nano_V3.0</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v2.x" description="Arduino Nano v2.x"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa7d42a-eeb1-44af-812f-0e5f4bac776e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="0.1UF-KIT-EZ-50V-20%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>513f8849-8321-479e-8b50-23db7924a9e7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="0.1UF-KIT-EZ-50V-20%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64b1109e-ca74-4fb5-b7f6-014c3a70d250</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="0.1UF-KIT-EZ-50V-20%" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d04fdb26-e6f6-40e4-8759-c9101434cd87</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7daf0ee-ca9e-4f1e-a529-9dc64919ca00</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e232ec7-7389-4713-bd06-6a9355f4d1d3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5addbf62-995b-4e66-bba1-a8a6b483d913</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dac8c27-eb0d-4743-aa3f-364409525d8b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>IN4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ed5af7e-05fb-4628-b307-8f6162778049</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dd8521b-cf33-4502-8278-a2711a1e04f8</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50e90188-2c5d-43b4-baba-c2e8285374a2</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>LM324N</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="LM324N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e9b962-34cf-430f-850d-09c2cfa02b0a 48787610-b7b7-49d6-9d31-6574e16f90d8 773cfb89-dcfc-485c-9365-83b738826130 99641951-7689-441b-90a1-10cf89ed98ca 1243f89e-6c41-4730-b449-a031f7a2ac9e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Clock</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>033ba0db-75ee-4a05-b7fa-81fe5598b714</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Trigger</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>781ffc98-0539-402c-a6a1-37ac51d5e844</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Gate</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a5afa3d-b979-4da8-a049-a95d43109b79</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Pitch Bend</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79ae9565-df1f-4ff5-a09c-9847c9d2ed86</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Continuous Control</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00635830-8d2e-4408-b8ad-96f9230f79bf</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Note</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>814d7c16-4ee8-4f17-80b2-b0e44e8015e7</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Velocity</value>
+      <footprint>Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles</footprint>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0388975c-d9fb-4063-8026-525810b160a4</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Eurorack 16 DIP Header</value>
+      <footprint>Custom_Footprints:Eurorack_16_pin_header</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1e88ede-9ada-4748-a3a1-2d0475393d20</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6aeb71e3-a9e8-4d2c-9697-721d5072d286</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>691a344b-1a8b-456e-9747-5493d5824049</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc9d4249-7742-49c7-81fa-ce60810e821b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89ace703-579e-4f30-b2b6-7f92f26a093d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8df5949a-1f0a-476d-9e45-4e63dd70db37</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e207b3b0-12de-4bbe-abd1-b4890f3ea28c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab56f3c8-bda8-4a0f-9a7c-1f13c3901182</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>4.7K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="R-US_0207{slash}10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3a7a596-d716-4ff0-aef4-a84630f5b877</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e490ae7c-821b-408a-9e20-90bd2a8d8ffb</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>616ac328-2536-4cd0-9e89-9843e03e6e38</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT_MSM</value>
+      <footprint>Eurocad:SPDT toggle on-off-on</footprint>
+      <libsource lib="Switch" part="SW_SPDT_MSM" description="Switch, single pole double throw, center OFF position"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16e69434-8e43-4bfb-b27d-7730e73edd6b</tstamps>
+    </comp>
+    <comp ref="U$1">
+      <value>MIDIJACK</value>
+      <footprint>SD-50BV:CUI_SD-50BV</footprint>
+      <libsource lib="Midi2cv-eagle-import" part="MIDIJACK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>734eacb4-04cd-4b50-bd61-3bddf64b92e2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP4822</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf</datasheet>
+      <libsource lib="Analog_DAC" part="MCP4822" description="2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5bf06f9-ce24-4a00-a68d-b293586aca9c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP4822</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf</datasheet>
+      <libsource lib="Analog_DAC" part="MCP4822" description="2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2195d410-7b91-4e4c-b929-fbac96044aaa</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>PC817</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Midi2cv.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74d69ddb-f98a-46f8-9241-eeb7702d51c4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_DAC" part="MCP4822">
+      <description>2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4822</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="~{CS}" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="~{LDAC}" type="input"/>
+        <pin num="6" name="VB" type="output"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="VA" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="PC817">
+      <description>DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4</description>
+      <docs>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v2.x">
+      <description>Arduino Nano v2.x</description>
+      <docs>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="A4" type="bidirectional"/>
+        <pin num="24" name="A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Midi2cv-eagle-import" part="0.1UF-KIT-EZ-50V-20%">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-KIT-EZ-50V-20%</field>
+        <field name="Footprint">Midi2cv:CAP-PTH-SMALL-KIT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Midi2cv-eagle-import" part="LM324N">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM324N</field>
+        <field name="Footprint">Midi2cv:DIL14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="-IN" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+IN" type="input"/>
+        <pin num="6" name="-IN" type="input"/>
+        <pin num="7" name="OUT" type="output"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="9" name="-IN" type="input"/>
+        <pin num="10" name="+IN" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+IN" type="input"/>
+        <pin num="13" name="-IN" type="input"/>
+        <pin num="14" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Midi2cv-eagle-import" part="MIDIJACK">
+      <fields>
+        <field name="Value">MIDIJACK</field>
+        <field name="Footprint">Midi2cv:CP-2350</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="PE" name="MT" type="passive"/>
+        <pin num="PE1" name="MT" type="passive"/>
+        <pin num="PE2" name="MT" type="passive"/>
+        <pin num="PE@" name="MT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Midi2cv-eagle-import" part="R-US_0207{slash}10">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-US_0207{slash}10</field>
+        <field name="Footprint">Midi2cv:0207_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT_MSM">
+      <description>Switch, single pole double throw, center OFF position</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT_MSM</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_DAC">
+      <uri>/usr/share/kicad/symbols//Analog_DAC.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/symbols//Isolator.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>/usr/share/kicad/symbols//MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Midi2cv-eagle-import">
+      <uri>/home/josh/Documents/Kicad Projects/Senior Design/Midi2cv/Midi2cv-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/5+">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="3" name="/12+">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="4" name="/A0">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="5" name="/A2">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/AD5">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/AD12">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/CLOCK">
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/CONTROL">
+      <node ref="IC1" pin="13" pinfunction="-IN" pintype="input"/>
+      <node ref="IC1" pin="14" pinfunction="OUT" pintype="output"/>
+      <node ref="J5" pin="T" pintype="passive"/>
+    </net>
+    <net code="10" name="/D2">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/D3">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/D4">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/D8">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="14" name="/D9">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="U1" pin="2" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="15" name="/D11">
+      <node ref="A1" pin="14" pinfunction="D11" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="SDI" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="16" name="/D13">
+      <node ref="A1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="SCK" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="17" name="/DAC1_VOUTA">
+      <node ref="IC1" pin="10" pinfunction="+IN" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VA" pintype="output"/>
+    </net>
+    <net code="18" name="/DAC1_VOUTB">
+      <node ref="IC1" pin="5" pinfunction="+IN" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="VB" pintype="output"/>
+    </net>
+    <net code="19" name="/DAC2_VOUTA">
+      <node ref="IC1" pin="3" pinfunction="+IN" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VA" pintype="output"/>
+    </net>
+    <net code="20" name="/DAC2_VOUTB">
+      <node ref="IC1" pin="12" pinfunction="+IN" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="VB" pintype="output"/>
+    </net>
+    <net code="21" name="/GATE">
+      <node ref="J3" pin="T" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/MIDI_4">
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="23" name="/MIDI_5">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U$1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U3" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/NOTE">
+      <node ref="IC1" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="J6" pin="T" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/NOTE_FDB">
+      <node ref="IC1" pin="2" pinfunction="-IN" pintype="input"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/PITCH_BEND">
+      <node ref="IC1" pin="8" pinfunction="OUT" pintype="output"/>
+      <node ref="IC1" pin="9" pinfunction="-IN" pintype="input"/>
+      <node ref="J4" pin="T" pintype="passive"/>
+    </net>
+    <net code="27" name="/RX0">
+      <node ref="A1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="28" name="/R_FDB">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/TRIGGER">
+      <node ref="J2" pin="T" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/VELOCITY">
+      <node ref="IC1" pin="6" pinfunction="-IN" pintype="input"/>
+      <node ref="IC1" pin="7" pinfunction="OUT" pintype="output"/>
+      <node ref="J7" pin="T" pintype="passive"/>
+    </net>
+    <net code="31" name="5V">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="32" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="J2" pin="S" pintype="passive"/>
+      <node ref="J3" pin="S" pintype="passive"/>
+      <node ref="J4" pin="S" pintype="passive"/>
+      <node ref="J5" pin="S" pintype="passive"/>
+      <node ref="J6" pin="S" pintype="passive"/>
+      <node ref="J7" pin="S" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="~{LDAC}" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="Vss" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="~{LDAC}" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="Vss" pintype="power_in"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="D1/TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(A1-Pad9)">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(A1-Pad13)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(A1-Pad15)">
+      <node ref="A1" pin="15" pinfunction="D12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(A1-Pad23)">
+      <node ref="A1" pin="23" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(A1-Pad24)">
+      <node ref="A1" pin="24" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(A1-Pad30)">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J1-PadTN)">
+      <node ref="J1" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J2-PadTN)">
+      <node ref="J2" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J3-PadTN)">
+      <node ref="J3" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J4-PadTN)">
+      <node ref="J4" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J5-PadTN)">
+      <node ref="J5" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J6-PadTN)">
+      <node ref="J6" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J7-PadTN)">
+      <node ref="J7" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J8-Pad1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J8-Pad2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J8-Pad13)">
+      <node ref="J8" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J8-Pad14)">
+      <node ref="J8" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J8-Pad15)">
+      <node ref="J8" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J8-Pad16)">
+      <node ref="J8" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U$1-Pad1)">
+      <node ref="U$1" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U$1-Pad2)">
+      <node ref="U$1" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U$1-Pad3)">
+      <node ref="U$1" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

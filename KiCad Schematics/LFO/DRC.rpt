@@ -1,0 +1,88 @@
+** Drc report for C:/Users/Administrator/Documents/KiCad/6.0/projects/LFO_3/LFO_3_10HP.kicad_pcb **
+** Created on 2023-03-23 14:16:06 **
+
+** Found 24 DRC violations **
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(191.7700 mm, 88.9000 mm): Footprint RV4
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(191.7700 mm, 88.9000 mm): Footprint RV4
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(191.7700 mm, 88.9000 mm): Footprint RV4
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(191.7700 mm, 88.9000 mm): Footprint RV4
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(200.7235 mm, 92.2528 mm): Footprint RV3
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(200.7235 mm, 92.2528 mm): Footprint RV3
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(200.7235 mm, 92.2528 mm): Footprint RV3
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(200.7235 mm, 92.2528 mm): Footprint RV3
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(203.8350 mm, 121.9200 mm): Footprint RV5
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(203.8350 mm, 121.9200 mm): Footprint RV5
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(203.8350 mm, 121.9200 mm): Footprint RV5
+[malformed_courtyard]: Footprint has malformed courtyard (self-intersecting)
+    Local override; Severity: error (excluded)
+    @(203.8350 mm, 121.9200 mm): Footprint RV5
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error (excluded)
+    @(187.3250 mm, 104.1400 mm): Footprint R20
+    @(188.2950 mm, 114.3000 mm): Footprint C8
+[courtyards_overlap]: Courtyards overlap
+    Local override; Severity: error (excluded)
+    @(196.2150 mm, 99.0600 mm): Footprint Q2
+    @(192.2150 mm, 93.9800 mm): Footprint Q4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(204.8350 mm, 121.9200 mm): Footprint Text '*' of RV5
+    @(203.8350 mm, 121.9200 mm): Through hole pad 3 [GND] of RV5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(191.7700 mm, 88.9000 mm): Footprint Text '*' of RV4
+    @(191.7700 mm, 88.9000 mm): Through hole pad 3 [Net-(Q4-Pad3)] of RV4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(200.7235 mm, 92.2528 mm): Footprint Text '*' of RV3
+    @(200.7235 mm, 92.2528 mm): Through hole pad 3 [Net-(Q2-Pad2)] of RV3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(-1.0000 mm, 6.2000 mm): Polygon on B.Silkscreen
+    @(216.9000 mm, 45.7200 mm): Through hole pad 1 [/12-] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning (excluded)
+    @(-1.0000 mm, 6.2000 mm): Polygon on B.Silkscreen
+    @(214.3600 mm, 45.7200 mm): Through hole pad 2 [/12-] of J2
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning (excluded)
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning (excluded)
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning (excluded)
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning (excluded)
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning (excluded)
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(216.9000 mm, 53.3400 mm): Through hole pad 7 [GND] of J2
+    @(234.8350 mm, 55.7500 mm): Through hole pad 1 [GND] of RV2
+
+** Found 0 Footprint errors **
+
+** End of Report **
