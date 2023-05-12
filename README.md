@@ -1,7 +1,7 @@
 # NIU Senior Design 2022-2023 Group 33
 Analog and Digital Controlled Modular Synthesizer for Audio Synthesis and Signal Processing
 
-![Comleted Synthesizer](/Pictures/Full_Setup.JPG)
+![Comleted Synthesizer](Pictures/Full_Setup.jpg)
 
 The goal of this project was to design and construct a modular Eurorack synthesizer.
 The team has designed ten modules that perform the functions of a synthesizer. Those modules are:
